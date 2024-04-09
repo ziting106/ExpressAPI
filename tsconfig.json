@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",                            /* 指定編譯後的 JavaScript 語言版本並包括兼容的庫聲明。 */
+    "module": "commonjs",                       /* 指定生成的模塊代碼。 */
+    "rootDir": "./src/app",                         /* 指定源文件的根文件夾。 */
+    "outDir": "./dist",                         /* 指定所有編譯後文件的輸出文件夾。 */
+    "removeComments": true,                     /* 禁用編譯後註釋。 */
+    "esModuleInterop": true,                    /* 編譯後額外的 JavaScript 以便支持導入 CommonJS 模塊。這使得 'allowSyntheticDefaultImports' 可用於類型兼容性。 */
+    "forceConsistentCasingInFileNames": true,   /* 確保導入時大小寫正確。 */
+    "strict": true,                             /* 啟用所有嚴格的類型檢查選項。 */
+    "skipLibCheck": true                        /* 跳過對所有 .d.ts 文件的類型檢查。 */
+  }
+}
+
